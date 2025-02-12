@@ -1,0 +1,19 @@
+{
+    "name": "vinted-search-notifier",
+    "version": "1.0.0",
+    "description": "A tool to search Vinted periodically and email notifications for new items",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "cookie": "^0.4.1",
+        "dotenv": "^16.4.7",
+        "https-proxy-agent": "^5.0.0",
+        "node-fetch": "^2.6.7",
+        "nodemailer": "^6.9.1",
+        "user-agents": "^1.0.100"
+    }
+}
